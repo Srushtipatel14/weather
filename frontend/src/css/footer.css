@@ -1,0 +1,16 @@
+.footer {
+  position:absolute;
+  width: 100%;
+  top:100%;
+  color:black;
+  text-align: center;
+  font-family: var(--body-font);
+  margin-top: 5px;
+  background-color: var(--first-color);
+}
+
+.footcon {
+  text-align: center;
+  padding: 5px 0;
+  font-weight: 600;
+}

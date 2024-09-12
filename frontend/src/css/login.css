@@ -1,0 +1,85 @@
+.formContainer{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.formPart{
+    width: 80%;
+    display: flex;
+    justify-content:center;
+}
+
+.fieds{
+    color: black;
+    font-weight:bold;
+    width: 70%;
+    margin:auto;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    margin:10px 0;
+}
+
+.field>label{
+    margin: 7px 0;
+    color: var(--first-color);
+}
+
+.field > input{
+    padding:15px;
+    border-radius: 5px;
+    border: none;
+    color: lightgray;
+    background-color:transparent;
+    border:1px solid var(--first-color);
+}
+.formPart1{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 50vh;
+    background-color: transparent;
+    border: 3px solid var(--first-color);
+    border-radius: 15px;
+    /* border-right: 3px solid var(--first-color); */
+}
+
+.formPart2
+{
+    width: 50%;
+    margin: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.loginbtn{
+    border-style: none;
+    background-color: transparent;
+    color: var(--first-color);
+    font-weight: bolder;
+    margin-top: 10px;
+    border:2px solid var(--first-color);
+    border-radius:3px;
+}
+
+
+.loginbtn:hover{
+    font-weight:bolder;
+    border:3px solid var(--first-color);
+}
+
+.loginimg{
+    width: 100%;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+}
